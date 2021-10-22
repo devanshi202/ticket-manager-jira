@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-container">
+        <div class="color-picker">
+            <div class="color pink"></div>
+            <div class="color blue"></div>
+            <div class="color green"></div>
+            <div class="color black"></div>
+        </div>
+
+        <div class="add-cross-container">
+            <div class="add">
+                <i class="fas fa-plus "></i>
+            </div>
+            <div class="cross">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <div class="lock-unlock-container add-cross-container">
+            <div class="lock active">
+                <i class="fas fa-lock"></i>
+            </div>
+            <div class="unlock">
+                <i class="fas fa-unlock"></i>
+            </div>
+        </div>
+        <div class="modal-container hidden">
+                <div class="input-container">
+                    <textarea class="input-container-text" placeholder="Enter the text "></textarea>
+                </div>
+                <div class="color-container">
+                    <div class="colBox pink"></div>
+                    <div class="colBox blue"></div>
+                    <div class="colBox green"></div>
+                    <div class="colBox black selected"></div>
+                </div>
+        </div>
+
+        <input type="text" name="" id="text-input">
+    </div>
+    <div class="ticket-container">
+        
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
